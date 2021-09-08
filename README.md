@@ -12,9 +12,9 @@ go to the ``STATE`` directory
 cd STATE
 ```
 
-and run ``state-setup``
+and run ``state-setup.sh``
 
 ```
-./state-setup
+./state-setup.sh
 ```
 
