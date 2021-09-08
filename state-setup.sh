@@ -6,7 +6,7 @@
 # -----------------------------------
 #
 VERSION=''
-#VERSION='5.6.8'
+#VERSION='5.6.9'
 if [ -z ${VERSION} ];
 then
 STATE_SRC='state'
@@ -20,9 +20,7 @@ GNCPP_DIR=${ROOT_DIR}/gncpp
 # 1. STATE source directory
 # -------------------------
 #
-mkdir -p STATE/src
-#
-cd STATE
+mkdir -p ./src
 #
 cd src; ln -s $SRC_DIR state; cd ..
 #
