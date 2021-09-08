@@ -1,4 +1,4 @@
-This is the STATE code
+This is the STATE code.
 
 To set up the environment for the hands-on in the CMD workshop, execute the following command in the home directory:
 
