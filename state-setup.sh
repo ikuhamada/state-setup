@@ -3,7 +3,9 @@
 # A script to setup the STATE directories
 #
 # 0. Source directory and its version
-# -----------------------------------
+# ===================================
+#
+# version of STATE
 #
 VERSION=''
 #VERSION='5.6.9'
@@ -13,29 +15,42 @@ STATE_SRC='state'
 else
 STATE_SRC='state-'${VERSION}
 fi
-ROOT_DIR=~teac21/STATE
+#
+# User ID of the lecturer
+#
+LECTURE_ID=teac21
+# 
+# STATE root directory
+#
+ROOT_DIR=~${LECTURE_ID}/STATE
+#
+# STATE source directory
+#
 SRC_DIR=${ROOT_DIR}/src/${STATE_SRC}
+#
+# GNCPP directory
+#
 GNCPP_DIR=${ROOT_DIR}/gncpp
 #
 # 1. STATE source directory
-# -------------------------
+# =========================
 #
 mkdir -p ./src
 #
 cd src; ln -s $SRC_DIR state; cd ..
 #
 # 2. GNCPP directory
-# ------------------
+# ==================
 #
 ln -s ${GNCPP_DIR}
 #
 # 3. Example directory
-# --------------------
+# ====================
 #
 git clone https://github.com/ikuhamada/state-examples.git examples
 #
-# Add a path to the utility directory
-# -----------------------------------
+# 4. Add a path to the utility directory
+# ======================================
 #
 echo "export PATH=${PATH}:${SRC_DIR}/util/bin" >> ~/.bashrc; source ~/.bashrc
 #
