@@ -1,8 +1,16 @@
 #!/bin/sh
+########################################################################
+#                                                                      #
+# A script to setup the STATE directories                              #
+#                                                                      #
+########################################################################
 #
-# A script to setup the STATE directories
+# 0. User ID of the lecturer
+# ==========================
 #
-# 0. Source directory and its version
+LECTURE_ID=teac21
+#
+# 1. Source directory and its version
 # ===================================
 #
 # version of STATE
@@ -15,10 +23,6 @@ STATE_SRC='state'
 else
 STATE_SRC='state-'${VERSION}
 fi
-#
-# User ID of the lecturer
-#
-LECTURE_ID=teac21
 # 
 # STATE root directory
 #
@@ -32,24 +36,24 @@ SRC_DIR=${ROOT_DIR}/src/${STATE_SRC}
 #
 GNCPP_DIR=${ROOT_DIR}/gncpp
 #
-# 1. STATE source directory
+# 2. STATE source directory
 # =========================
 #
 mkdir -p ./src
 #
 cd src; ln -s $SRC_DIR state; cd ..
 #
-# 2. GNCPP directory
+# 3. GNCPP directory
 # ==================
 #
 ln -s ${GNCPP_DIR}
 #
-# 3. Example directory
+# 4. Example directory
 # ====================
 #
 git clone https://github.com/ikuhamada/state-examples.git examples
 #
-# 4. Add a path to the utility directory
+# 5. Add a path to the utility directory
 # ======================================
 #
 echo "export PATH=${PATH}:${SRC_DIR}/util/bin" >> ~/.bashrc; source ~/.bashrc
