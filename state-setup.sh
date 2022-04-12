@@ -8,7 +8,7 @@
 # 0. User ID of the lecturer
 # ==========================
 #
-LECTURE_ID=teac21
+LECTURER_ID=professor
 #
 # 1. Source directory and its version
 # ===================================
@@ -16,7 +16,6 @@ LECTURE_ID=teac21
 # version of STATE
 #
 VERSION=''
-#VERSION='5.6.9'
 if [ -z ${VERSION} ];
 then
 STATE_SRC='state'
@@ -26,7 +25,7 @@ fi
 # 
 # STATE root directory
 #
-ROOT_DIR=/home/CMD/${LECTURE_ID}/STATE
+ROOT_DIR=/CMS/STATE
 #
 # STATE source directory
 #
