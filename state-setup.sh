@@ -50,7 +50,7 @@ ln -s ${GNCPP_DIR}
 # 4. Example directory
 # ====================
 #
-git clone https://github.com/ikuhamada/state-examples.git examples
+git clone -b acmd_tdmu_2022 https://github.com/ikuhamada/state-examples.git examples
 #
 # 5. Add a path to the utility directory
 # ======================================
