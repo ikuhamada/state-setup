@@ -1,9 +1,9 @@
-This is a part of  the STATE example for the CMD workshop.
+This is a part of  the STATE example for the Asian CMD workshop Thu Dau Mot University (ACMD 2022, Vietnam).
 
-To set up the environment for the hands-on in the CMD workshop, execute the following command in the home directory:
+To set up the environment for the hands-on in the ACMD workshop, execute the following command in the home directory:
 
 ```bash
-git clone https://github.com/ikuhamada/state-setup.git STATE
+git clone -b acmd_tdmu_2022 https://github.com/ikuhamada/state-setup.git STATE
 ```
 
 Then go to the ``STATE`` directory
