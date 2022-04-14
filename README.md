@@ -18,5 +18,5 @@ and run ``state-setup.sh``
 ./state-setup.sh
 ```
 
-One can find the ``example`` directory containing the examples used in the hands-on. The source files can be found in ``src`` and the pseudopotetials can be found in ``gncpp``.
+One can find the ``examples`` directory containing the examples used in the hands-on. The source files can be found in ``src`` and the pseudopotetials can be found in ``gncpp``.
 
