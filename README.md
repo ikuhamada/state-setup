@@ -6,13 +6,13 @@ To set up the environment for the hands-on in the ACMD workshop, execute the fol
 git clone -b acmd_tdmu_2022 https://github.com/ikuhamada/state-setup.git STATE
 ```
 
-Then go to the ``STATE`` directory
+to get the ``STATE`` directory. Then, go to the ``STATE`` directory
 
 ```bash
 cd STATE
 ```
 
-run ``state-setup.sh``
+and run ``state-setup.sh``
 
 ```bash
 ./state-setup.sh
