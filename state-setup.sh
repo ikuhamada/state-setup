@@ -41,7 +41,7 @@ GNCPP_DIR=${ROOT_DIR}/gncpp
 mkdir -p ./src
 #
 #cd src; ln -s $SRC_DIR state; cd ..
-cd src; cp -R $SRC_DIR; cd ..
+cd src; cp -R $SRC_DIR state; cd ..
 #
 # 3. GNCPP directory
 # ==================
