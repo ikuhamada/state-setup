@@ -8,7 +8,7 @@
 # 0. User ID of the lecturer
 # ==========================
 #
-LECTURE_ID=teac21
+LECTURER_ID=teac21
 #
 # 1. Source directory and its version
 # ===================================
@@ -26,15 +26,19 @@ fi
 # 
 # STATE root directory
 #
-ROOT_DIR=/home/CMD/${LECTURE_ID}/STATE
+ROOT_DIR=/opt
 #
 # STATE source directory
 #
-SRC_DIR=${ROOT_DIR}/src/${STATE_SRC}
+SRC_DIR=/opt/state-5.6.9
 #
 # GNCPP directory
 #
-GNCPP_DIR=${ROOT_DIR}/gncpp
+GNCPP_DIR=/opt/gncpp
+#
+# Other utility directory
+#
+UTIL_DIR=/home/CMD/${LECTURER_ID}/local/bin
 #
 # 2. STATE source directory
 # =========================
