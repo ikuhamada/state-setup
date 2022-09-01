@@ -26,19 +26,15 @@ fi
 # 
 # STATE root directory
 #
-ROOT_DIR=/opt
+ROOT_DIR=/home/CMD/${LECTURE_ID}/STATE
 #
 # STATE source directory
 #
-SRC_DIR=/opt/state-5.6.9
+SRC_DIR=${ROOT_DIR}/src/${STATE_SRC}
 #
 # GNCPP directory
 #
-GNCPP_DIR=/opt/gncpp
-#
-# Other utility directory
-#
-UTIL_DIR=/home/CMD/${LECTURER_ID}/local/bin
+GNCPP_DIR=${ROOT_DIR}/gncpp
 #
 # 2. STATE source directory
 # =========================
