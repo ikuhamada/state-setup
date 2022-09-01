@@ -1,14 +1,9 @@
 #!/bin/sh
 ########################################################################
 #                                                                      #
-# A script to setup the STATE directories                              #
+# A script to setup the STATE directories for the supercomputer course #
 #                                                                      #
 ########################################################################
-#
-# 0. User ID of the lecturer
-# ==========================
-#
-LECTURE_ID=teac21
 #
 # 1. Source directory and its version
 # ===================================
@@ -26,7 +21,7 @@ fi
 # 
 # STATE root directory
 #
-ROOT_DIR=/home/CMD/${LECTURE_ID}/STATE
+ROOT_DIR=${HOME}/STATE
 #
 # STATE source directory
 #
@@ -39,14 +34,14 @@ GNCPP_DIR=${ROOT_DIR}/gncpp
 # 2. STATE source directory
 # =========================
 #
-mkdir -p ./src
+#mkdir -p ./src
 #
-cd src; ln -s $SRC_DIR state; cd ..
+#cd src; ln -s $SRC_DIR state; cd ..
 #
 # 3. GNCPP directory
 # ==================
 #
-ln -s ${GNCPP_DIR}
+#ln -s ${GNCPP_DIR}
 #
 # 4. Example directory
 # ====================
