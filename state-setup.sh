@@ -34,14 +34,19 @@ GNCPP_DIR=${ROOT_DIR}/gncpp
 # 2. STATE source directory
 # =========================
 #
-#mkdir -p ./src
+mkdir -p ./src; cd src
 #
-#cd src; ln -s $SRC_DIR state; cd ..
+wget http://www-cp.prec.eng.osaka-u.ac.jp/cmd/state-latest.tgz
+tar zxvf state-latest.tgz
+rm -f state-latest.tgz
+cd ..
 #
 # 3. GNCPP directory
 # ==================
 #
-#ln -s ${GNCPP_DIR}
+wget http://www-cp.prec.eng.osaka-u.ac.jp/cmd/gncpp.tgz
+tar zxvf gncpp.tgz
+rm -f gncpp.tgz
 #
 # 4. Example directory
 # ====================
