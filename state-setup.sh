@@ -51,7 +51,7 @@ rm -f gncpp.tgz
 # 4. Example directory
 # ====================
 #
-git clone https://github.com/ikuhamada/state-examples.git examples
+git clone -b cmd_sc https://github.com/ikuhamada/state-examples.git examples
 #
 # 5. Add a path to the utility directory
 # ======================================
