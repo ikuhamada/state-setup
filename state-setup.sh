@@ -37,7 +37,7 @@ GNCPP_DIR=${ROOT_DIR}/gncpp
 mkdir -p ./src; cd src
 #
 wget http://www-cp.prec.eng.osaka-u.ac.jp/cmd/state-latest.tgz
-tar zxvf state-latest.tgz
+tar zxf state-latest.tgz
 rm -f state-latest.tgz
 cd ..
 #
@@ -45,7 +45,7 @@ cd ..
 # ==================
 #
 wget http://www-cp.prec.eng.osaka-u.ac.jp/cmd/gncpp.tgz
-tar zxvf gncpp.tgz
+tar zxf gncpp.tgz
 rm -f gncpp.tgz
 #
 # 4. Example directory
