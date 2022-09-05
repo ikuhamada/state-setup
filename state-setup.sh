@@ -25,7 +25,7 @@ ROOT_DIR=${HOME}/STATE
 #
 # STATE source directory
 #
-SRC_DIR=${ROOT_DIR}/src/${STATE_SRC}/src
+SRC_DIR=${ROOT_DIR}/src/${STATE_SRC}
 #
 # GNCPP directory
 #
