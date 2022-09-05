@@ -51,3 +51,10 @@ make > make.log 2>&1&
 ```
 
 and you are all set!!!
+
+If you cannot find utility programs such as ``chkinpf``, please execute the following
+
+```bash
+source ~/.bashrc
+```
+
