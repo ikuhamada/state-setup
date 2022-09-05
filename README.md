@@ -20,3 +20,33 @@ and run ``state-setup.sh``
 
 One can find the ``examples`` directory containing the examples used in the hands-on. The source files can be found in ``src`` and the pseudopotetials can be found in ``gncpp``.
 
+Then let us build the STATE executable. Go to the ``src`` directory
+
+```bash
+cd src/state/src
+```
+
+There type the following
+
+```bash
+ln -s ../arch/make.arch.intel_ohtaka_scalapack make.arch
+```
+
+and then make
+
+```bash
+make > make.log 2>&1&
+
+If the STATE is build successfully, let us move to the ``util`` directory.
+
+```bash
+cd ../util
+```
+
+and build the programs
+
+```bash
+make > make.log 2>&1&
+```
+
+and you are all set!!!
