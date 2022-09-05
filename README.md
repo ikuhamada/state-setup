@@ -36,6 +36,7 @@ and then make
 
 ```bash
 make > make.log 2>&1&
+```
 
 If the STATE is build successfully, let us move to the ``util`` directory.
 
