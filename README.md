@@ -3,7 +3,7 @@ This is a part of  the STATE example for the CMD workshop.
 To set up the environment for the hands-on in the CMD workshop, execute the following command in the home directory:
 
 ```bash
-git clone -b acmd_itb_2022 https://github.com/ikuhamada/state-setup.git STATE
+git clone -b cmd_beginner https://github.com/ikuhamada/state-setup.git STATE
 ```
 
 to obtain the ``STATE directory``. Then, go to the ``STATE`` directory
