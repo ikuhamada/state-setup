@@ -8,7 +8,7 @@
 # 0. User ID of the lecturer
 # ==========================
 #
-LECTURER_ID=professor
+LECTURER_ID=ikutaro.hamada
 #
 # 1. Source directory and its version
 # ===================================
@@ -25,7 +25,7 @@ fi
 # 
 # STATE root directory
 #
-ROOT_DIR=/CMS/STATE
+ROOT_DIR=~${LECTURER_ID}/STATE
 #
 # STATE source directory
 #
@@ -40,7 +40,7 @@ GNCPP_DIR=${ROOT_DIR}/gncpp
 #
 mkdir -p ./src
 #
-#cd src; ln -s $SRC_DIR state; cd ..
+# cd src; ln -s $SRC_DIR state; cd ..
 cd src; cp -R $SRC_DIR state; cd ..
 #
 # 3. GNCPP directory
@@ -51,7 +51,7 @@ ln -s ${GNCPP_DIR}
 # 4. Example directory
 # ====================
 #
-git clone -b acmd_tdmu_2022 https://github.com/ikuhamada/state-examples.git examples
+git clone -b acmd_pka_2022 https://github.com/ikuhamada/state-examples.git examples
 #
 # 5. Add a path to the utility directory
 # ======================================
