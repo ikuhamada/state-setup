@@ -1,4 +1,4 @@
-This is a part of the STATE example for the Asian computational materials design (ACMD) workshop at Phenikaa University, Vietnam.
+This is a part of the STATE example for the Asia computational materials design (ACMD) workshop at Phenikaa University, Vietnam.
 
 To set up the environment for the hands-on in the ACMD workshop, execute the following command in the home directory:
 
