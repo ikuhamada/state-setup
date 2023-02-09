@@ -3,6 +3,12 @@ This is a part of  the STATE example for the CMD workshop.
 To set up the environment for the hands-on in the CMD workshop, execute the following command in the home directory:
 
 ```bash
+cd $HOME
+```
+
+(you don't have to type this command, if you are in the home directory, though) and
+
+```bash
 git clone -b cmd_beginner https://github.com/ikuhamada/state-setup.git STATE
 ```
 
