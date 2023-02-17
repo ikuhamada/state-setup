@@ -16,7 +16,7 @@ LECTURER_ID=teac21
 # version of STATE
 #
 #VERSION=''
-VERSION='5.6.12'
+VERSION='5.6.13'
 if [ -z ${VERSION} ];
 then
 STATE_SRC='state'
@@ -41,7 +41,8 @@ GNCPP_DIR=${ROOT_DIR}/gncpp
 #
 mkdir -p ./src
 #
-cd src; ln -s $SRC_DIR state; cd ..
+cd src; cp -R $SRC_DIR state; cd ..
+# cd src; ln -s $SRC_DIR state; cd ..
 #
 # 3. GNCPP directory
 # ==================
