@@ -15,8 +15,8 @@ LECTURER_ID=teac21
 #
 # version of STATE
 #
-#VERSION=''
-VERSION='5.6.13'
+VERSION=''
+#VERSION='5.6.13'
 if [ -z ${VERSION} ];
 then
 STATE_SRC='state'
@@ -57,7 +57,8 @@ git clone -b cmd_beginner https://github.com/ikuhamada/state-examples.git exampl
 # 5. Add a path to the utility directory
 # ======================================
 #
-echo "export PATH=${PATH}:${SRC_DIR}/util/bin" >> ~/.bashrc; source ~/.bashrc
+echo "export PATH=${PATH}:`pwd`/src/state/util/bin" >> ~/.bashrc; source ~/.bashrc
+# echo "export PATH=${PATH}:${SRC_DIR}/util/bin" >> ~/.bashrc; source ~/.bashrc
 #
 #####################
 # End of the script #
