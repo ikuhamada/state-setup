@@ -58,6 +58,16 @@ git clone -b cmd_sc https://github.com/ikuhamada/state-examples.git examples
 #
 echo "export PATH=${PATH}:${SRC_DIR}/util/bin" >> ~/.bashrc; source ~/.bashrc
 #
+# 6. Add modules necessary to build STATE
+# =======================================
+#
+echo "module purge"                         >> ~/.bashrc
+echo "module load oneapi_compiler/2023.0.0" >> ~/.bashrc
+echo "module load oneapi_mkl/2023.0.0"      >> ~/.bashrc
+echo "module load oneapi_mpi/2023.0.0"      >> ~/.bashrc
+#
+source ~/.bashrc
+#
 #####################
 # End of the script #
 #####################
