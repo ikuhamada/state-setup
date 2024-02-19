@@ -18,6 +18,12 @@ and run ``state-setup.sh``
 ./state-setup.sh
 ```
 
+To make sure the command search path is set, let us do the following:
+
+```bash
+source ~/.bashrc
+```
+
 One can find the ``examples`` directory containing the examples used in the hands-on. The source files can be found in ``src`` and the pseudopotetials can be found in ``gncpp``.
 
 Then let us build the STATE executable. Go to the ``src`` directory
