@@ -26,8 +26,8 @@ fi
 # 
 # STATE root directory
 #
-# ROOT_DIR=/home/CMD/${LECTURER_ID}/STATE
-ROOT_DIR=${HOME}/STATE
+ROOT_DIR=/home/CMD/${LECTURER_ID}/STATE
+# ROOT_DIR=${HOME}/STATE
 #
 # STATE source directory
 #
