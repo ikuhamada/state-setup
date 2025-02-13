@@ -23,19 +23,20 @@ STATE_SRC='state'
 else
 STATE_SRC='state-'${VERSION}
 fi
+#
+REPO_DIR=/home/CMD/${LECTURER_ID}/repo/STATE
 # 
 # STATE root directory
 #
-ROOT_DIR=/home/CMD/${LECTURER_ID}/STATE
-# ROOT_DIR=${HOME}/STATE
+ROOT_DIR=${HOME}/STATE
 #
 # STATE source directory
 #
-SRC_DIR=${ROOT_DIR}/src/${STATE_SRC}
+SRC_DIR=${REPO_DIR}/src/${STATE_SRC}
 #
 # GNCPP directory
 #
-GNCPP_DIR=${ROOT_DIR}/gncpp
+GNCPP_DIR=${REPO_DIR}/gncpp
 #
 # 2. STATE source directory
 # =========================
