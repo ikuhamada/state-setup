@@ -1,9 +1,9 @@
-This is a part of  the STATE example for the CMD workshop.
+This is a part of  the STATE example for the in-house hands-on tutorial.
 
-To set up the environment for the hands-on in the CMD workshop, execute the following command in the home directory:
+To set up the environment for the hands-on tutorial, execute the following command in the home directory:
 
 ```bash
-git clone https://github.com/ikuhamada/state-setup.git STATE
+git clone -b in-house https://github.com/ikuhamada/state-setup.git STATE
 ```
 
 to obtain the ``STATE directory``. Then, go to the ``STATE`` directory

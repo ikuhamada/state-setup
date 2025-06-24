@@ -8,15 +8,15 @@
 # 0. User ID of the lecturer
 # ==========================
 #
-LECTURE_ID=teac21
+LECTURE_ID=ikutaro
 #
 # 1. Source directory and its version
 # ===================================
 #
 # version of STATE
 #
-VERSION=''
-#VERSION='5.6.9'
+#VERSION=''
+VERSION='5.6.17'
 if [ -z ${VERSION} ];
 then
 STATE_SRC='state'
@@ -26,7 +26,7 @@ fi
 # 
 # STATE root directory
 #
-ROOT_DIR=/home/CMD/${LECTURE_ID}/STATE
+ROOT_DIR=/home/${LECTURE_ID}/STATE
 #
 # STATE source directory
 #
@@ -41,7 +41,7 @@ GNCPP_DIR=${ROOT_DIR}/gncpp
 #
 mkdir -p ./src
 #
-cd src; ln -s $SRC_DIR state; cd ..
+cd src; cp -R $SRC_DIR .; cd ..
 #
 # 3. GNCPP directory
 # ==================
@@ -51,7 +51,7 @@ ln -s ${GNCPP_DIR}
 # 4. Example directory
 # ====================
 #
-git clone https://github.com/ikuhamada/state-examples.git examples
+git clone -b in-house https://github.com/ikuhamada/state-examples.git examples
 #
 # 5. Add a path to the utility directory
 # ======================================
