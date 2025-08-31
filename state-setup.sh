@@ -8,7 +8,7 @@
 # 0. User ID of the lecturer
 # ==========================
 #
-LECTURE_ID=ikutaro
+LECTURE_ID=teac21
 #
 # 1. Source directory and its version
 # ===================================
@@ -16,7 +16,7 @@ LECTURE_ID=ikutaro
 # version of STATE
 #
 #VERSION=''
-VERSION='5.6.17'
+VERSION='5.6.19b'
 if [ -z ${VERSION} ];
 then
 STATE_SRC='state'
