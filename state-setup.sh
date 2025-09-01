@@ -11,7 +11,7 @@
 # version of STATE
 #
 #VERSION=''
-VERSION='5.6.15_rc1'
+VERSION='5.6.19b'
 if [ -z ${VERSION} ];
 then
 STATE_SRC='state'
@@ -36,10 +36,10 @@ GNCPP_DIR=${ROOT_DIR}/gncpp
 #
 mkdir -p ./src; cd src
 #
-wget http://www-cp.prec.eng.osaka-u.ac.jp/cmd/state-5.6.15_rc1.tgz
-tar zxf state-5.6.15_rc1.tgz
-ln -s state-5.6.15_rc1 state
-rm -f state-5.6.15_rc1.tgz
+wget http://www-cp.prec.eng.osaka-u.ac.jp/cmd/state-5.6.19b.tgz
+tar zxf state-5.6.19b.tgz
+ln -s state-5.6.19b state
+rm -f state-5.6.19b.tgz
 cd ..
 #
 # 3. GNCPP directory
