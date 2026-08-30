@@ -16,7 +16,7 @@ LECTURER_ID=teac21
 # version of STATE
 #
 #VERSION=''
-VERSION='5.6.20'
+VERSION='5.6.22'
 if [ -z ${VERSION} ];
 then
 STATE_SRC='state'
